@@ -1,0 +1,83 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #293651;
+  text-align: justify;
+}
+
+.regiao {
+  background-color: #dbe2e8;
+  height: 350px;
+}
+
+.regiao_contato {
+  background-color: #31b792;
+  height: 100px;
+}
+.intro {
+  color: #31b792;
+  font-size: 27px;
+  font-weight: 170;
+}
+
+.nome {
+  font-size: 37px;
+}
+
+.descrição {
+  font-weight: 350;
+  font-size: 26px;
+  padding-top: 5px;
+  letter-spacing: 1.2pt;
+}
+
+.principal {
+  margin-right: 5rem;
+  color: #5c5d63d9;
+  font-size: 19px;
+  font-weight: 400px;
+  width: 900px;
+  padding: 5px;
+}
+
+.information {
+  background: #31b792;
+  color: #f3f3f3;
+  width: 225px;
+  height: 50px;
+  font-size: large;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.information:hover {
+  background-color: #919aa6;
+}
+
+div img {
+  width: 320px;
+  height: 492px;
+}
+
+.rodape {
+  text-align: center;
+  background-color: #dbe2e8;
+  height: 300px;
+}
+
+.icones {
+  margin-top: 5%;
+  width: 45px;
+  height: 45px;
+  border-radius: 9px;
+  background-color: white;
+}
+
+.icones:hover {
+  background-color: #bac1c9;
+}
+.icones img {
+  width: 30px;
+  height: 30px;
+}
