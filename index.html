@@ -19,6 +19,13 @@
   </head>
   <body>
     <!-- SEÇÃO 1-->
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">Why You Hire Me?</a>
+      <a href="#">Projetos</a>
+      <a href="#">Contatos</a>
+    </div>
+
     <div class="introducao_enzo">
       <h2 class="intro">Olá, sou o</h2>
       <h1 class="nome">Enzo Pascal</h1>
@@ -31,12 +38,12 @@
       <a href="#Projetos"
         ><button class="information">Mais informações</button></a
       >
-      <div class="img_enzo" style="text-align: center">
+      <div class="img_enzo">
         <img src="img/hero.png" alt="" />
       </div>
 
       <div>
-        <h1 style="text-align: center">Why you hire me?</h1>
+        <h1 class="contrato">Why you hire me?</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime
           quibusdam voluptatum iste est fuga ex, rerum non nulla facere eligendi
@@ -47,13 +54,17 @@
 
       <div class="progessbar">
         <p>UI/UX Design</p>
-        <progress value="85" max="100"></progress>
+        <progress class="tutu" value="85" max="100"></progress>
+        <label> 85%</label>
         <p>Web Design</p>
-        <progress value="75" max="100"></progress>
+        <progress class="tutu" value="75" max="100"></progress>
+        <label> 75%</label>
         <p>HTML/CSS</p>
-        <progress value="90" max="100"></progress>
+        <progress class="tutu" value="90" max="100"></progress>
+        <label> 90%</label>
         <p>Sketch</p>
-        <progress value="65" max="100"></progress>
+        <progress class="tutu" value="65" max="100"></progress>
+        <label> 65%</label>
       </div>
     </div>
 
@@ -61,60 +72,66 @@
 
     <!--SEÇÃO PROJETOS -->
     <div class="projetos">
-      <a id="Projetos"><h3>Projetos</h3></a>
-      <div class="caixa">
-        <img src="" alt="" />
-        <h2>Graphic Design</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-          atque reiciendis amet laboriosam aperiam nulla voluptatum non,
-          pariatur et, voluptatibus nemo quam dolores natus placeat maxime
-          voluptatem dicta praesentium inventore?
-        </p>
-      </div>
+      <a id="projetos"><h3>Projetos</h3></a>
 
-      <div class="caixa">
-        <img src="" alt="" />
-        <h2>Web Design</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-          atque reiciendis amet laboriosam aperiam nulla voluptatum non,
-          pariatur et, voluptatibus nemo quam dolores natus placeat maxime
-          voluptatem dicta praesentium inventore?
-        </p>
-      </div>
+      <div class="container">
+        <div class="caixa">
+          <img src="icons/brush-solid.svg" alt="" />
+          <h2>Graphic Design</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
+            atque reiciendis amet laboriosam aperiam nulla voluptatum non,
+            pariatur et, voluptatibus nemo quam dolores natus placeat maxime
+            voluptatem dicta praesentium inventore?
+          </p>
+        </div>
 
-      <div class="caixa">
-        <img src="" alt="" />
-        <h2>UI/UX Design</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-          atque reiciendis amet laboriosam aperiam nulla voluptatum non,
-          pariatur et, voluptatibus nemo quam dolores natus placeat maxime
-          voluptatem dicta praesentium inventore?
-        </p>
-      </div>
+        <div class="caixa">
+          <img src="icons/bezier-curve-solid.svg" alt="" />
+          <h2>Web Design</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
+            atque reiciendis amet laboriosam aperiam nulla voluptatum non,
+            pariatur et, voluptatibus nemo quam dolores natus placeat maxime
+            voluptatem dicta praesentium inventore?
+          </p>
+        </div>
 
-      <div class="caixa">
-        <img src="" alt="" />
-        <h2>Frontend Development</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-          atque reiciendis amet laboriosam aperiam nulla voluptatum non,
-          pariatur et, voluptatibus nemo quam dolores natus placeat maxime
-          voluptatem dicta praesentium inventore?
-        </p>
+        <div class="caixa">
+          <img src="icons/draw-polygon-solid.svg" alt="" />
+          <h2>UI/UX Design</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
+            atque reiciendis amet laboriosam aperiam nulla voluptatum non,
+            pariatur et, voluptatibus nemo quam dolores natus placeat maxime
+            voluptatem dicta praesentium inventore?
+          </p>
+        </div>
+
+        <div class="caixa">
+          <img src="icons/code-solid.svg" alt="" />
+          <h2>Frontend Development</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
+            atque reiciendis amet laboriosam aperiam nulla voluptatum non,
+            pariatur et, voluptatibus nemo quam dolores natus placeat maxime
+            voluptatem dicta praesentium inventore?
+          </p>
+        </div>
       </div>
     </div>
 
     <!--FIM DA SEÇÃO PROJETOS -->
 
     <!-- SEÇÃO CONTATOS-->
-    <div class="regiao_contato">
-      <h3>Contatos</h3>
-      <p>E-mail: enzo@example.designer</p>
-      <p>Fone: =55 (11) 991 002 003</p>
-    </div>
+    <section class="contacts_section">
+      <div class="regiao_contato">
+        <h3>Contatos</h3>
+        <p>E-mail: enzo@example.designer</p>
+        <p>Fone: =55 (11) 991 002 003</p>
+      </div>
+    </section>
+
     <!-- FIM DA SEÇÃO CONTATOS-->
 
     <!-- SEÇÃO RODAPÉ-->
@@ -126,16 +143,12 @@
         <img src="icons/linkedin-brands.svg" alt="" />
       </button>
       <button class="icones">
-        <img src="icons/twitter-brands.svg" alt="" />
+        <img src="icons/facebook-square-brands.svg" alt="" />
       </button>
       <button class="icones">
         <img src="icons/whatsapp-brands.svg" alt="" />
       </button>
       <p>enzo@example.designer</p>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
-      <a href=""></a>
     </footer>
     <!-- FIM DA SEÇÃO RODAPÉ-->
   </body>
