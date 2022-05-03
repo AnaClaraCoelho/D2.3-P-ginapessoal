@@ -6,33 +6,27 @@ body {
 
 /* SEÇÃO 1 */
 
-.menu {
-  padding: 5px 10px;
-  margin: 0;
-  border: 0px solid #f00;
-  background-image: radial-gradient(
-    circle at 50% -20.71%,
-    #c4f6e6 0,
-    #b2f0e2 12.5%,
-    #90e3cb 25%,
-    #79c7b0 37.5%,
-    #3aad96 50%,
-    #4bd6ac 62.5%,
-    #15d6b9 75%,
-    #00d8b8 87.5%,
-    #00d9bc 100%
-  );
-  text-decoration: none;
-  color: #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
+nav {
+  background-color: #0cc0a5;
   border-radius: 5px;
   width: 100%;
   height: 100px;
 }
+
+nav a {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 8px;
+  text-decoration: none;
+  color: #293651;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 650;
+}
+
 .introducao_enzo {
   margin: 0 20%;
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .intro {
@@ -59,15 +53,13 @@ body {
   text-align: center;
 }
 .contrato {
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 5ex;
 }
 
-.progressbar {
-  width: 520px;
-}
-
-.tutu {
+.bar {
   background-color: #00a78e;
+  width: 35%;
 }
 progress::-webkit-progress-value {
   background-color: #00a78e;
@@ -83,7 +75,7 @@ progress::-webkit-progress-value {
 
 #projetos {
   display: block;
-  font-size: 30px;
+  font-size: 55px;
 }
 
 .caixa {
@@ -92,15 +84,16 @@ progress::-webkit-progress-value {
   height: 450px;
   background-color: #ffffff;
   margin-top: 8px;
-  margin: 60px;
+  margin: 70px;
+  padding: 8px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 22px;
   vertical-align: top;
 }
 
 .container {
   text-align: center;
-  margin: 0 150px;
+  margin: 0 20%;
 }
 .caixa img {
   width: 85px;
@@ -113,7 +106,7 @@ progress::-webkit-progress-value {
 
 .regiao_contato {
   background-image: url(img/mapamundo.png);
-  font-size: 22px;
+  font-size: 26px;
   text-align: center;
   width: 80%;
   height: 250px;
@@ -138,14 +131,20 @@ progress::-webkit-progress-value {
   display: inline-block;
   width: 60px;
   height: 60px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.71);
 }
 .icones img {
   width: 35px;
 }
+
+.icones:hover {
+  background-color: rgb(198, 198, 198);
+}
 .introducao_enzo,
 .progessbar,
 .projetos,
-.regiao_contato,
-.rodape {
+.regiao_contato {
   margin-bottom: 90px;
 }
