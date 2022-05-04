@@ -7,26 +7,30 @@ body {
 /* SEÇÃO 1 */
 
 nav {
-  background-color: #0cc0a5;
+  background: linear-gradient(to top, #fefefe, #44c8b4 55%);
   border-radius: 5px;
   width: 100%;
-  height: 100px;
+  height: 120px;
+  position: sticky;
+  top: 0;
+  opacity: 0.8;
 }
 
 nav a {
   display: inline-block;
   margin-top: 25px;
-  padding: 8px;
+  padding: 5px;
   text-decoration: none;
   color: #293651;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 28px;
   font-weight: 650;
+  margin-left: 5%;
 }
 
 .introducao_enzo {
-  margin: 0 20%;
-  font-size: 26px;
+  margin: 0 25%;
+  font-size: 24px;
 }
 
 .intro {
@@ -37,9 +41,9 @@ nav a {
 .information {
   background-color: #00a78e;
   color: #f3f3f3;
-  width: 225px;
-  height: 50px;
-  font-size: large;
+  width: 245px;
+  height: 65px;
+  font-size: 20px;
   border-radius: 6px;
   border: none;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -54,17 +58,40 @@ nav a {
 }
 .contrato {
   font-weight: bold;
-  font-size: 5ex;
+  font-size: 45px;
 }
 
-.bar {
-  background-color: #00a78e;
-  width: 35%;
-}
-progress::-webkit-progress-value {
-  background-color: #00a78e;
+.progress {
+  width: 30%;
+  height: 25px;
+  border: solid 2px;
+  text-align: right;
+  display: inline-block;
 }
 
+.progress div {
+  background-color: #00a78e;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+.um {
+  width: 85%;
+}
+
+.dois {
+  width: 65%;
+}
+
+.tres {
+  width: 85%;
+}
+
+.quatro {
+  width: 70%;
+}
 /*SEÇÃO PROJETOS*/
 
 .projetos {
@@ -75,7 +102,7 @@ progress::-webkit-progress-value {
 
 #projetos {
   display: block;
-  font-size: 55px;
+  font-size: 30px;
 }
 
 .caixa {
@@ -83,10 +110,8 @@ progress::-webkit-progress-value {
   width: 450px;
   height: 450px;
   background-color: #ffffff;
-  margin-top: 8px;
-  margin: 70px;
+  margin: 1%;
   padding: 8px;
-  border-radius: 5px;
   font-size: 22px;
   vertical-align: top;
 }
@@ -105,7 +130,8 @@ progress::-webkit-progress-value {
 /*SEÇÃO CONTATOS*/
 
 .regiao_contato {
-  background-image: url(img/mapamundo.png);
+  background-image: url(../img/mapamundo.png);
+  background-position: 10%;
   font-size: 26px;
   text-align: center;
   width: 80%;
@@ -119,7 +145,6 @@ progress::-webkit-progress-value {
 /*SEÇÃO RODAPÉ*/
 
 .rodape {
-  width: 100%;
   height: 250px;
   text-align: center;
   font-size: 28px;
